@@ -10,3 +10,11 @@ b = [8; 7; 5; -3];
 
 
 % ADD YOUR CODE HERE
+
+
+% if there is a solution (determined by inspection),
+% assign (a particular) solution to vector x and display it
+x = % ADD YOUR CODE HERE
+
+fprintf('solution for Ax=b:\n');
+disp(x);
