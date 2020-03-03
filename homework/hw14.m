@@ -25,8 +25,9 @@ for i = 1 : 2
     fprintf('computed solution x:\n');
     disp(x);
 
-    fprintf('error: %e\n',error);
-    fprintf('condition number: %e\n',cond(H));
+    c = % ADD YOUR CODE HERE
+    fprintf('error: %e\n', err);
+    fprintf('condition number: %e\n',c);
 end
 
 % ADD A COMMENT WITH YOUR OBSERVATIONS BELOW
